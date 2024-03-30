@@ -1,13 +1,16 @@
+/* sets how width and height are calculated and adding base padding and margin of 0 to everything */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* background color on web page for everything in body */
 body {
     background-color: #d9dcd6;
 }
 
+/* text styling for the header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* display and font changes for header class and h1 element */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* color change for header and seo class and h1 element */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styling, font and font size changes for header clas and div element */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* removed list points */
 .header div ul {
     list-style-type: none;
 }
 
+/* styling changes for the list */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* color and no text decoration for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font size for all p text */
 p {
     font-size: 16px;
 }
 
+/* main image on web page with styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* class for floating something left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class for floating something right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styling for content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styling, font and background color changes for the benifits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* spacing and color changed for benifit-lead class */ 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* spacing and color changed for benifit-brand class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* spacing and color changed for benifit-cost class */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* aligning the text with image and centered */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* aligning the text with image and centered */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* aligning the text with image and centered */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* image positioning */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image positioning */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image positioning */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* styling, font, color and background color changes for SEO class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* styling, font, color and background color changes for ORM class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* styling, font, color and background color changes for SMM class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* image size */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* image size */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* image size */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* text positioning and size */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* text positioning and size */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* text positioning and size */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* styling, font and positioning for footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/* changing font size for h2 in the footer class */
 .footer h2 {
     font-size: 20px;
 }
