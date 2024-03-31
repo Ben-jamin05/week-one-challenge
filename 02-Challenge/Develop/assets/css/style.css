@@ -5,13 +5,13 @@
     margin: 0;
 }
 
-/* background color on web page for everything in body */
+/* background color on web page for everything in body element */
 body {
     background-color: #d9dcd6;
 }
 
-/* text styling for the header class */
-.header {
+/* text styling for the header element */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +19,18 @@ body {
 }
 
 /* display and font changes for header class and h1 element */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* color change for header and seo class and h1 element */
-.header h1 .seo {
+/* color change for the seo class and header and h1 elements */
+header h1 .seo {
     color: #d9dcd6;
 }
 
-/* styling, font and font size changes for header clas and div element */
-.header div {
+/* styling, font and font size changes for header and div elements */
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /* removed list points */
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
 /* styling changes for the list */
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -82,15 +82,15 @@ p {
     margin-left: 25px;
 }
 
-/* styling for content class */
-.content {
+/* styling for content element */
+content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* styling, font and background color changes for the benifits class */
-.benefits {
+/* styling, font and background color changes for the benifits element */
+benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -221,15 +221,15 @@ p {
     font-size: 36px;
 }
 
-/* styling, font and positioning for footer class */
-.footer {
+/* styling, font and positioning for footer element */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/* changing font size for h2 in the footer */
-.footer h2 {
+/* changing font size for h2 in the footer element */
+footer h2 {
     font-size: 20px;
 }
